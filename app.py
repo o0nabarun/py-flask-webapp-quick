@@ -6,7 +6,7 @@ app = Flask(__name__)
 def get_data():
     data = {
         'name': 'Mickey',
-        'age': 20,
+        'year': 1928,
         'city': 'Noneville'
     }
     return jsonify(data)
